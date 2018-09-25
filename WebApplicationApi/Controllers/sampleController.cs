@@ -28,6 +28,12 @@ namespace WebApplicationApi.Controllers
         {
             return Ok("hello");
         }
+        [HttpGet]
+        [Route("api/sample/update")]
+        public IHttpActionResult update()
+        {
+            return Ok("hello");
+        }
 
 
     }
