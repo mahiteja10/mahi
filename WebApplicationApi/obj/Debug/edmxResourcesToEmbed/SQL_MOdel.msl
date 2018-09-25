@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Student_recordsModelStoreContainer" CdmEntityContainer="Student_recordsEntities">
+    <EntitySetMapping Name="Student_Bio">
+      <EntityTypeMapping TypeName="Student_recordsModel.Student_Bio">
+        <MappingFragment StoreEntitySet="Student_Bio">
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="Department" ColumnName="Department" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Student_marks">
+      <EntityTypeMapping TypeName="Student_recordsModel.Student_marks">
+        <MappingFragment StoreEntitySet="Student_marks">
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="mark1" ColumnName="mark1" />
+          <ScalarProperty Name="mark2" ColumnName="mark2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Student_Userdetails">
+      <EntityTypeMapping TypeName="Student_recordsModel.Student_Userdetails">
+        <MappingFragment StoreEntitySet="Student_Userdetails">
+          <ScalarProperty Name="S_no" ColumnName="S_no" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
